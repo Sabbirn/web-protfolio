@@ -1,8 +1,15 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .Sabbir{
     color: orange;
@@ -14,5 +21,30 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: rgb(255,160,122);
+    background: -moz-linear-gradient(90deg, rgba(255,160,122,1) 0%, rgba(255,99,71,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,160,122,1) 0%, rgba(255,99,71,1) 100%);
+    background: linear-gradient(90deg, rgba(255,160,122,1) 0%, rgba(255,99,71,1) 100%);
+    color: #ffff;
+    font-weight: 700;
+}
+.dream-aria{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
